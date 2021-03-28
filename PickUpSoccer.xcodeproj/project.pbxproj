@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18545D3125E946F7000D0A26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18545D3025E946F7000D0A26 /* AppDelegate.swift */; };
+		18545D3325E946F7000D0A26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18545D3225E946F7000D0A26 /* ViewController.swift */; };
+		18545D3825E946F8000D0A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18545D3725E946F8000D0A26 /* Assets.xcassets */; };
+		18545D3B25E946F8000D0A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18545D3925E946F8000D0A26 /* LaunchScreen.storyboard */; };
+		18545D4325E947DE000D0A26 /* SighUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18545D4225E947DE000D0A26 /* SighUpViewController.swift */; };
+		18545D4525E94800000D0A26 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18545D4425E94800000D0A26 /* LoginViewController.swift */; };
+		18545D4725E94812000D0A26 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18545D4625E94812000D0A26 /* HomeViewController.swift */; };
+		18545D4C25E9612F000D0A26 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18545D4B25E9612F000D0A26 /* GoogleService-Info.plist */; };
+		523DDAB325F294540060C6A3 /* DirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523DDAB225F294540060C6A3 /* DirectionViewController.swift */; };
+		524AFC0125EEC7EB00774BEF /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524AFC0025EEC7EB00774BEF /* Constans.swift */; };
+		524AFC0325EEE9B000774BEF /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524AFC0225EEE9B000774BEF /* EventViewController.swift */; };
+		524AFC0525EF017B00774BEF /* PickUpsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524AFC0425EF017B00774BEF /* PickUpsViewController.swift */; };
+		5263ED3025F0072400F425A9 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263ED2F25F0072400F425A9 /* Spot.swift */; };
+		5263ED3225F00E6300F425A9 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263ED3125F00E6300F425A9 /* GameTableViewCell.swift */; };
+		5263ED3425F0136900F425A9 /* GameSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263ED3325F0136900F425A9 /* GameSignupViewController.swift */; };
+		5263ED3625F01A4900F425A9 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263ED3525F01A4900F425A9 /* Spots.swift */; };
+		5263ED3825F0670600F425A9 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263ED3725F0670600F425A9 /* APIKeys.swift */; };
+		BC22F2B87299979B71328BBE /* Pods_PickUpSoccer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9B1E44CA989D02A33130C3 /* Pods_PickUpSoccer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18545D2D25E946F7000D0A26 /* PickUpSoccer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickUpSoccer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18545D3025E946F7000D0A26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18545D3225E946F7000D0A26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18545D3725E946F8000D0A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18545D3A25E946F8000D0A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18545D3C25E946F8000D0A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18545D4225E947DE000D0A26 /* SighUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SighUpViewController.swift; sourceTree = "<group>"; };
+		18545D4425E94800000D0A26 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18545D4625E94812000D0A26 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18545D4B25E9612F000D0A26 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E9B1E44CA989D02A33130C3 /* Pods_PickUpSoccer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickUpSoccer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		523DDAB225F294540060C6A3 /* DirectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionViewController.swift; sourceTree = "<group>"; };
+		524AFC0025EEC7EB00774BEF /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		524AFC0225EEE9B000774BEF /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		524AFC0425EF017B00774BEF /* PickUpsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpsViewController.swift; sourceTree = "<group>"; };
+		5263ED2F25F0072400F425A9 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		5263ED3125F00E6300F425A9 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		5263ED3325F0136900F425A9 /* GameSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSignupViewController.swift; sourceTree = "<group>"; };
+		5263ED3525F01A4900F425A9 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
+		5263ED3725F0670600F425A9 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		5263ED3925F0797800F425A9 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		870D54C161CB692C0A085B54 /* Pods-PickUpSoccer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickUpSoccer.debug.xcconfig"; path = "Target Support Files/Pods-PickUpSoccer/Pods-PickUpSoccer.debug.xcconfig"; sourceTree = "<group>"; };
+		F4265265E1D40000A5031A1E /* Pods-PickUpSoccer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickUpSoccer.release.xcconfig"; path = "Target Support Files/Pods-PickUpSoccer/Pods-PickUpSoccer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18545D2A25E946F7000D0A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC22F2B87299979B71328BBE /* Pods_PickUpSoccer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18545D2425E946F7000D0A26 = {
+			isa = PBXGroup;
+			children = (
+				18545D2F25E946F7000D0A26 /* PickUpSoccer */,
+				18545D2E25E946F7000D0A26 /* Products */,
+				8A203FC061B3F96FA8AB7D2F /* Pods */,
+				CDDC131D8010B7A5697ED7EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18545D2E25E946F7000D0A26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18545D2D25E946F7000D0A26 /* PickUpSoccer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18545D2F25E946F7000D0A26 /* PickUpSoccer */ = {
+			isa = PBXGroup;
+			children = (
+				524AFBFF25EEC7B900774BEF /* Helpers */,
+				18545D4825E94833000D0A26 /* ViewControllers */,
+				18545D3025E946F7000D0A26 /* AppDelegate.swift */,
+				18545D4B25E9612F000D0A26 /* GoogleService-Info.plist */,
+				18545D3725E946F8000D0A26 /* Assets.xcassets */,
+				18545D3925E946F8000D0A26 /* LaunchScreen.storyboard */,
+				18545D3C25E946F8000D0A26 /* Info.plist */,
+			);
+			path = PickUpSoccer;
+			sourceTree = "<group>";
+		};
+		18545D4825E94833000D0A26 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18545D4225E947DE000D0A26 /* SighUpViewController.swift */,
+				18545D4425E94800000D0A26 /* LoginViewController.swift */,
+				18545D4625E94812000D0A26 /* HomeViewController.swift */,
+				18545D3225E946F7000D0A26 /* ViewController.swift */,
+				524AFC0225EEE9B000774BEF /* EventViewController.swift */,
+				524AFC0425EF017B00774BEF /* PickUpsViewController.swift */,
+				5263ED3125F00E6300F425A9 /* GameTableViewCell.swift */,
+				5263ED3325F0136900F425A9 /* GameSignupViewController.swift */,
+				523DDAB225F294540060C6A3 /* DirectionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		524AFBFF25EEC7B900774BEF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				524AFC0025EEC7EB00774BEF /* Constans.swift */,
+				5263ED2F25F0072400F425A9 /* Spot.swift */,
+				5263ED3525F01A4900F425A9 /* Spots.swift */,
+				5263ED3725F0670600F425A9 /* APIKeys.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8A203FC061B3F96FA8AB7D2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				870D54C161CB692C0A085B54 /* Pods-PickUpSoccer.debug.xcconfig */,
+				F4265265E1D40000A5031A1E /* Pods-PickUpSoccer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CDDC131D8010B7A5697ED7EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5263ED3925F0797800F425A9 /* CoreBluetooth.framework */,
+				1E9B1E44CA989D02A33130C3 /* Pods_PickUpSoccer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18545D2C25E946F7000D0A26 /* PickUpSoccer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18545D3F25E946F8000D0A26 /* Build configuration list for PBXNativeTarget "PickUpSoccer" */;
+			buildPhases = (
+				B82F3D8E85CA562DA3E72982 /* [CP] Check Pods Manifest.lock */,
+				18545D2925E946F7000D0A26 /* Sources */,
+				18545D2A25E946F7000D0A26 /* Frameworks */,
+				18545D2B25E946F7000D0A26 /* Resources */,
+				EA32CBA5776FADC91D1492B8 /* [CP] Embed Pods Frameworks */,
+				E87511790364F1B2DF04D958 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickUpSoccer;
+			productName = PickUpSoccer;
+			productReference = 18545D2D25E946F7000D0A26 /* PickUpSoccer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18545D2525E946F7000D0A26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = VladBordiug;
+				TargetAttributes = {
+					18545D2C25E946F7000D0A26 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 18545D2825E946F7000D0A26 /* Build configuration list for PBXProject "PickUpSoccer" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18545D2425E946F7000D0A26;
+			productRefGroup = 18545D2E25E946F7000D0A26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18545D2C25E946F7000D0A26 /* PickUpSoccer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18545D2B25E946F7000D0A26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18545D3B25E946F8000D0A26 /* LaunchScreen.storyboard in Resources */,
+				18545D4C25E9612F000D0A26 /* GoogleService-Info.plist in Resources */,
+				18545D3825E946F8000D0A26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B82F3D8E85CA562DA3E72982 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickUpSoccer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E87511790364F1B2DF04D958 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickUpSoccer/Pods-PickUpSoccer-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickUpSoccer/Pods-PickUpSoccer-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PickUpSoccer/Pods-PickUpSoccer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA32CBA5776FADC91D1492B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickUpSoccer/Pods-PickUpSoccer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickUpSoccer/Pods-PickUpSoccer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PickUpSoccer/Pods-PickUpSoccer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18545D2925E946F7000D0A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5263ED3425F0136900F425A9 /* GameSignupViewController.swift in Sources */,
+				18545D4725E94812000D0A26 /* HomeViewController.swift in Sources */,
+				5263ED3825F0670600F425A9 /* APIKeys.swift in Sources */,
+				18545D4525E94800000D0A26 /* LoginViewController.swift in Sources */,
+				524AFC0325EEE9B000774BEF /* EventViewController.swift in Sources */,
+				524AFC0125EEC7EB00774BEF /* Constans.swift in Sources */,
+				523DDAB325F294540060C6A3 /* DirectionViewController.swift in Sources */,
+				524AFC0525EF017B00774BEF /* PickUpsViewController.swift in Sources */,
+				5263ED3225F00E6300F425A9 /* GameTableViewCell.swift in Sources */,
+				5263ED3625F01A4900F425A9 /* Spots.swift in Sources */,
+				18545D3325E946F7000D0A26 /* ViewController.swift in Sources */,
+				18545D4325E947DE000D0A26 /* SighUpViewController.swift in Sources */,
+				5263ED3025F0072400F425A9 /* Spot.swift in Sources */,
+				18545D3125E946F7000D0A26 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18545D3925E946F8000D0A26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18545D3A25E946F8000D0A26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18545D3D25E946F8000D0A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18545D3E25E946F8000D0A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18545D4025E946F8000D0A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 870D54C161CB692C0A085B54 /* Pods-PickUpSoccer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PickUpSoccer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.vladbordiug.com.PickUpSoccer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18545D4125E946F8000D0A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4265265E1D40000A5031A1E /* Pods-PickUpSoccer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PickUpSoccer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.vladbordiug.com.PickUpSoccer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18545D2825E946F7000D0A26 /* Build configuration list for PBXProject "PickUpSoccer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18545D3D25E946F8000D0A26 /* Debug */,
+				18545D3E25E946F8000D0A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18545D3F25E946F8000D0A26 /* Build configuration list for PBXNativeTarget "PickUpSoccer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18545D4025E946F8000D0A26 /* Debug */,
+				18545D4125E946F8000D0A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18545D2525E946F7000D0A26 /* Project object */;
+}
