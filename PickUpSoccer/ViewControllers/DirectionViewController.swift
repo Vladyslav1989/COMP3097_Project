@@ -32,12 +32,14 @@ class DirectionViewController: UIViewController, MKMapViewDelegate , CLLocationM
         
         
         
+        
         if CLLocationManager.locationServicesEnabled(){
             locationManager.delegate = self
             locationManager.desiredAccuracy = kCLLocationAccuracyBest
             locationManager.startUpdatingLocation()
         }
         let sourceCordinates = locationManager.location?.coordinate
+        print(sourceCordinates)
         
         let destCordinates = directCord
         let sourcePlacemark = MKPlacemark(coordinate: sourceCordinates!)

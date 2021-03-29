@@ -91,7 +91,7 @@ class SighUpViewController: UIViewController {
                     let db = Firestore.firestore() // if will return us firestore object , and we can call all our methods to , add data to database
                     
                     //"uid":result is auto generate key by firebase , result will store taht key asfter succesull creation of user in result.user.uid
-                    db.collection("users").addDocument(data: ["first_name":firstName,"last_name":lastName,"uid":result!.user.uid]){ (error) in
+                    db.collection("users").addDocument(data: ["first_name":firstName,"email":email,"last_name":lastName,"uid":result!.user.uid]){ (error) in
                         
                         if error != nil{
                             // Show error mesage
