@@ -19,7 +19,7 @@ class SighUpViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var signupButton: UIButton!
     @IBOutlet weak var errorLabel: UILabel!
-    
+    @IBOutlet weak var Cancel: UIButton!
     
     
     override func viewDidLoad() {
@@ -131,4 +131,17 @@ class SighUpViewController: UIViewController {
         
         
     }
+    func transitionBac(){
+        let homeViewController = storyboard?.instantiateViewController(withIdentifier: Constans.Storyboard.startViewController) as? ViewController
+        
+        
+        // swaping root view contorller
+        view.window?.rootViewController = homeViewController
+        view.window?.makeKeyAndVisible()
+    }
+    
+    @IBAction func CancelTapped(_ sender: Any) {
+        self.transitionBac()
+    }
+    
 }

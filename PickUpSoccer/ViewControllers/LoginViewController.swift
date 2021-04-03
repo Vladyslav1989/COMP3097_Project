@@ -71,4 +71,17 @@ class LoginViewController: UIViewController {
         
         
     }
+    func transitionBac(){
+        let homeViewController = storyboard?.instantiateViewController(withIdentifier: Constans.Storyboard.startViewController) as? ViewController
+        
+        
+        // swaping root view contorller
+        view.window?.rootViewController = homeViewController
+        view.window?.makeKeyAndVisible()
+    }
+    
+    
+    @IBAction func CanelTapp(_ sender: Any) {
+        self.transitionBac()
+    }
 }

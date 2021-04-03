@@ -12,5 +12,8 @@ struct Constans {
     struct Storyboard{
         // sattic will allow us to acces without crating incetence of this structure , and we created in order to have less tyopes when referncing to "HOmeVC"
         static let homeViewController = "HomeVC"
+        static let startViewController = "startVC"
+        static let listViewController = "listVC"
+        static let gameViewController = "gameVC"
     }
 }

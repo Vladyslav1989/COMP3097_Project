@@ -129,7 +129,7 @@ class EventViewController: UIViewController {
             let eventName = nameEvent.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             //let eventAdress = adressEvent.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             //let eventPostlCode = postcodeEvent.text!.trimmingCharacters(in: .whitespacesAndNewlines)
-            let eventNumPlayers = nunPlayersEvnt.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let eventNumPlayers = Int(nunPlayersEvnt.text!.trimmingCharacters(in: .whitespacesAndNewlines))
             let eventDate = dateEvent.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             
             
@@ -157,6 +157,18 @@ class EventViewController: UIViewController {
         present(autocompleteController, animated: true, completion: nil)
         
         
+    }
+    
+    func transitionBac(){
+        let homeViewController = storyboard?.instantiateViewController(withIdentifier: Constans.Storyboard.homeViewController) as? HomeViewController
+        
+        
+        // swaping root view contorller
+        view.window?.rootViewController = homeViewController
+        view.window?.makeKeyAndVisible()
+    }
+    @IBAction func CancelTapp(_ sender: Any) {
+        self.transitionBac()
     }
     
   

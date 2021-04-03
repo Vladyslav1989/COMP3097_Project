@@ -78,8 +78,19 @@ class DirectionViewController: UIViewController, MKMapViewDelegate , CLLocationM
         render.lineWidth =  5.0
         return render
     }
+    func transitionBac(){
+        let homeViewController = storyboard?.instantiateViewController(withIdentifier: Constans.Storyboard.listViewController) as? PickUpsViewController
+        
+        
+        // swaping root view contorller
+        view.window?.rootViewController = homeViewController
+        view.window?.makeKeyAndVisible()
+    }
+
+
+    @IBAction func backTapped(_ sender: Any) {
+        self.transitionBac()
+    }
     
-
-
 
 }

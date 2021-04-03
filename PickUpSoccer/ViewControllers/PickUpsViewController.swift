@@ -51,8 +51,19 @@ class PickUpsViewController: UIViewController,UISearchBarDelegate {
             destination.spot = spots.spotArray[selectedIndexPath.row]
         }
     }
+    func transitionBac(){
+        let homeViewController = storyboard?.instantiateViewController(withIdentifier: Constans.Storyboard.homeViewController) as? HomeViewController
+        
+        
+        // swaping root view contorller
+        view.window?.rootViewController = homeViewController
+        view.window?.makeKeyAndVisible()
+    }
 
-
+    @IBAction func backtapp(_ sender: Any) {
+        self.transitionBac()
+    }
+    
 }
 
 extension PickUpsViewController:UITableViewDelegate,UITableViewDataSource{

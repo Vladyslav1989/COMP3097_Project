@@ -73,12 +73,24 @@ class GameSignupViewController: UIViewController {
         vc.directCord = self.cord
     }
     
+   
+
+    func transitionBac(){
+        let homeViewController = storyboard?.instantiateViewController(withIdentifier: Constans.Storyboard.listViewController) as? PickUpsViewController
+        
+        
+        // swaping root view contorller
+        view.window?.rootViewController = homeViewController
+        view.window?.makeKeyAndVisible()
+    }
     
-
-
-
-
+    @IBAction func cancelTapp(_ sender: Any) {
+        self.transitionBac()
+    }
+    
 }
+
+
 // we dont need it here
 /*
 extension GameSignupViewController: GMSAutocompleteViewControllerDelegate {
