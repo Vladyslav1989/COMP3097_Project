@@ -16,7 +16,7 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         
-        let db = Firestore.firestore() // referencing db
+        //let db = Firestore.firestore() // referencing db
         
         /* // way to create colection or data manually
         db.collection("event").addDocument(data: ["name":"someevent","num_players":10]) { (error) in

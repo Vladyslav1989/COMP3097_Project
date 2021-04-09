@@ -131,6 +131,8 @@ class EventViewController: UIViewController {
             //let eventPostlCode = postcodeEvent.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             let eventNumPlayers = Int(nunPlayersEvnt.text!.trimmingCharacters(in: .whitespacesAndNewlines))
             let eventDate = dateEvent.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let userID = Auth.auth().currentUser?.uid
+            
             
             
             
@@ -139,13 +141,14 @@ class EventViewController: UIViewController {
                     let db = Firestore.firestore() // if will return us firestore object , and we can call all our methods to , add data to database
                     
                     //add data to document
-            db.collection("event").addDocument(data: ["name":eventName,"adress":adress,"num_players":eventNumPlayers,"time":eventDate,"cordinates":GeoPoint(latitude: latitude, longitude: longitude)])
+            db.collection("event").addDocument(data: ["user_id":userID,"name":eventName,"adress":adress,"num_players":eventNumPlayers,"time":eventDate,"cordinates":GeoPoint(latitude: latitude, longitude: longitude)])
                         
-        
+        self.transitionBac()
             
         
     
     }
+        
     }
 
 
@@ -158,6 +161,7 @@ class EventViewController: UIViewController {
         
         
     }
+
     
     func transitionBac(){
         let homeViewController = storyboard?.instantiateViewController(withIdentifier: Constans.Storyboard.homeViewController) as? HomeViewController
@@ -170,6 +174,7 @@ class EventViewController: UIViewController {
     @IBAction func CancelTapp(_ sender: Any) {
         self.transitionBac()
     }
+    
     
   
     

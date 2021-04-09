@@ -25,6 +25,9 @@
 		5263ED3425F0136900F425A9 /* GameSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263ED3325F0136900F425A9 /* GameSignupViewController.swift */; };
 		5263ED3625F01A4900F425A9 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263ED3525F01A4900F425A9 /* Spots.swift */; };
 		5263ED3825F0670600F425A9 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263ED3725F0670600F425A9 /* APIKeys.swift */; };
+		526617B926176C2E000C63AF /* EditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526617B826176C2E000C63AF /* EditTableViewCell.swift */; };
+		526617BB26176CD1000C63AF /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526617BA26176CD1000C63AF /* EditViewController.swift */; };
+		526617BD26178475000C63AF /* EditGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526617BC26178475000C63AF /* EditGameViewController.swift */; };
 		BC22F2B87299979B71328BBE /* Pods_PickUpSoccer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9B1E44CA989D02A33130C3 /* Pods_PickUpSoccer.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +54,9 @@
 		5263ED3525F01A4900F425A9 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 		5263ED3725F0670600F425A9 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
 		5263ED3925F0797800F425A9 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		526617B826176C2E000C63AF /* EditTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewCell.swift; sourceTree = "<group>"; };
+		526617BA26176CD1000C63AF /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		526617BC26178475000C63AF /* EditGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGameViewController.swift; sourceTree = "<group>"; };
 		870D54C161CB692C0A085B54 /* Pods-PickUpSoccer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickUpSoccer.debug.xcconfig"; path = "Target Support Files/Pods-PickUpSoccer/Pods-PickUpSoccer.debug.xcconfig"; sourceTree = "<group>"; };
 		F4265265E1D40000A5031A1E /* Pods-PickUpSoccer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickUpSoccer.release.xcconfig"; path = "Target Support Files/Pods-PickUpSoccer/Pods-PickUpSoccer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +118,9 @@
 				5263ED3125F00E6300F425A9 /* GameTableViewCell.swift */,
 				5263ED3325F0136900F425A9 /* GameSignupViewController.swift */,
 				523DDAB225F294540060C6A3 /* DirectionViewController.swift */,
+				526617B826176C2E000C63AF /* EditTableViewCell.swift */,
+				526617BA26176CD1000C63AF /* EditViewController.swift */,
+				526617BC26178475000C63AF /* EditGameViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -280,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5263ED3425F0136900F425A9 /* GameSignupViewController.swift in Sources */,
+				526617BD26178475000C63AF /* EditGameViewController.swift in Sources */,
 				18545D4725E94812000D0A26 /* HomeViewController.swift in Sources */,
 				5263ED3825F0670600F425A9 /* APIKeys.swift in Sources */,
 				18545D4525E94800000D0A26 /* LoginViewController.swift in Sources */,
@@ -287,7 +297,9 @@
 				524AFC0125EEC7EB00774BEF /* Constans.swift in Sources */,
 				523DDAB325F294540060C6A3 /* DirectionViewController.swift in Sources */,
 				524AFC0525EF017B00774BEF /* PickUpsViewController.swift in Sources */,
+				526617BB26176CD1000C63AF /* EditViewController.swift in Sources */,
 				5263ED3225F00E6300F425A9 /* GameTableViewCell.swift in Sources */,
+				526617B926176C2E000C63AF /* EditTableViewCell.swift in Sources */,
 				5263ED3625F01A4900F425A9 /* Spots.swift in Sources */,
 				18545D3325E946F7000D0A26 /* ViewController.swift in Sources */,
 				18545D4325E947DE000D0A26 /* SighUpViewController.swift in Sources */,
